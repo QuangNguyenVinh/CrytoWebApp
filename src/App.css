@@ -303,8 +303,10 @@ width: 70%;
 }
 
 .news-image-container .img{
-    width:100px;
-    height:100px;
+    width:100rem;
+    height:50rem;
+    max-width:100rem;
+    max-height:50rem;
 }
 .news-card p{
     color: black;

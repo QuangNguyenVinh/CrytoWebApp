@@ -27,7 +27,7 @@ const App = () => {
               ></Route>
               <Route
                 exact
-                path="/crypto/:coinUUID"
+                path="/crypto/:coinId"
                 element={<CryptoDetails />}
               ></Route>
               <Route exact path="/news" element={<News />}></Route>
